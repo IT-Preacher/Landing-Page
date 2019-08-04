@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  font-size: 15px;
+}
+body{
+  font-family: tahoma;
+  font-weight: 550;
+  color: #353535;
+  background: #ebebeb;
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 14px
+}
+.container{
+  display: block;
+  width: 90%;
+  max-width: 1140px;
+  height: 90%;
+  max-height: 800px;
+  overflow: hidden;
+  margin: 30px auto;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.17);
+  position: relative;
+}
+.dackground img{
+  position: absolute;
+  top: 0;
+  left: 28px;
+  right: 0;
+  display: block;
+  width: 98%;
+}
+.container .navbar{
+  position: absolute;
+  top: 30px;
+  display: block;
+  width: 100%;
+  clear: both;
+  /*overflow: hidden;*/
+  height: 50px;
+}
+.container .navbar .left-part{
+  float: left;
+  display: block;
+  width: 80%;
+}
+.container .navbar .left-part .logo{
+  float: left;
+  margin: 0 0 0 30px;
+  font-size: 1.1875rem;
+  text-decoration: none;
+  color: #353535;
+  font-weight: 200;
+  letter-spacing: -1px;
+}
+.container .navbar .left-part .logo .bold{
+  font-weight: 500;
+  margin: 0 0 0 -5px;
+  color: rgba(53, 53, 53, 0.5);
+}
+.container .navbar .left-part ul{
+  float: left;
+  list-style: none;
+  margin: 0 0 0 30px;
+}
+.container .navbar .left-part ul li{
+  float: left;
+  display: block;
+  margin: 0 10px;
+}
+.container .navbar .left-part ul li a{
+  text-decoration: none;
+  color: #353535;
+  font-size: 14px;
+  font-weight: 200px;
+  /*text-transform: uppercase;*/
+  transition: all 0.3s linear;
+  font-family: tahoma;
+  letter-spacing: 1px;
+}
+.container .navbar .left-part ul li a:hover{
+  color: #ff5a00;
+}
+.container .navbar .right-part{
+  display: block;
+  width: 20%;
+  float: left;
+}
+.container .navbar .right-part .btn{
+  float: right;
+  margin: 0 30px 0 0;
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  width: 80px;
+  font-weight: 300;
+  font-style: italic;
+  background: white;
+  border: none;
+  border-radius: 59px;
+  color: #353535;
+  font-family: tahoma;
+  font-size: 0.8125rem;
+  box-shadow: 0 7px 13px rgba(0, 0, 0, 0.17);
+  transition: all 0.2s linear;
+}
+.container .navbar .right-part .btn:focus,
+.container .navbar .right-part .btn:active{
+  outline: none;
+  border: none;
+}
+.container .navbar .paragraph{
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: 0 20px;
+}
+.container .navbar .paragraph article{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: normal;
+}
+.container .navbar .paragraph .btn-cta{
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  width: 110px;
+  margin: 25px auto;
+  background: white;
+  font-weight: 300;
+  font-style: italic;
+  border: none;
+  border-radius: 59px;
+  color: #353535;
+  font-family: tahoma;
+  font-size: 0.8125rem;
+  box-shadow: 0 7px 13px rgba(0, 0, 0, 0.17);
+  transition: all 0.2s linear;
+}
+.container .navbar .paragraph .btn-cta:hover{
+  box-shadow: none;
+}
+.container .navbar .paragraph .btn-cta{
+  background: linear-gradient(-44deg, #ff7a00, #ee0979);
+  color: white;
+}
+/*not corect scroll-down*/
+/*.container .navbar .scroll-down{
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.container .navbar .scroll-down .scrolldown-link{
+  text-align: center;
+  margin: 40px auto;
+  display: block;
+  transform: rotate(-90deg);
+  font-size: 0.8125rem;
+  color: #353535;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}*/
